@@ -1,0 +1,35 @@
+.subtitle{
+    color: #035f9c;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+#content{
+    max-width: 50%;
+    margin: 40px auto;
+    border: none;
+    padding: 0px;
+}
+li{
+    margin: 20px auto;
+}
+p.italicstext{
+    font-style: italic; 
+    
+}
+img{
+    width:20%;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+}
+h1{
+    letter-spacing: 3px;
+}
+hr{
+    margin:0px auto;
+}
