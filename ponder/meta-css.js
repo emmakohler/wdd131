@@ -28,5 +28,23 @@ if (true) {
     console.log(student); //works just fine, it's being accessed within the block
 }
 console.log(course); //works fine, course is global
-console.log(student); //does not work, can't access a block variable outside the block
-                    
+//console.log(student); //does not work, can't access a block variable outside the block
+
+
+let selectElem = document.getElementById('webdevlist');
+selectElem.addEventListener('change', function(){
+    //some how reset the color to black for each time they toggle from red back to black
+    let codeValue = selectElem.value;
+    console.log(codeValue);
+    document.getElementById(codeValue).style.color='red';
+})
+
+const newPara= document.createElement('p');
+newPara.innerText= 'Added text here';
+
+const topics =document.querySelector("#topics");
+
+topics.appendChild(newPara);
+ //or
+//topics.innerHTML='<p> this is the new paragraph. </p>';
+                
