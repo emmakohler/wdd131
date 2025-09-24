@@ -34,6 +34,9 @@ console.log(course); //works fine, course is global
 let selectElem = document.getElementById('webdevlist');
 selectElem.addEventListener('change', function(){
     //some how reset the color to black for each time they toggle from red back to black
+    document.querySelector("#html").style.color = 'black';
+    document.querySelector("#css").style.color = 'black';
+    document.querySelector("#js").style.color = 'black';
     let codeValue = selectElem.value;
     console.log(codeValue);
     document.getElementById(codeValue).style.color='red';
@@ -48,3 +51,10 @@ topics.appendChild(newPara);
  //or
 //topics.innerHTML='<p> this is the new paragraph. </p>';
                 
+const image = document.querySelector('img');
+image.setAttribute('src', 'images/logo.jpg');
+image.setAttribute('alt','new logo wiht dark backround');
+
+document.body.className = 'blue'
+//or 
+// document.body.style.backgroundColor ='lightblue';
