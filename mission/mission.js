@@ -24,8 +24,12 @@ function changeTheme() {
         // code for changes to colors and logo
         document.body.style.backgroundColor = 'white';
         document.body.style.color = "black";
+         document.querySelectorAll("p.subtitle").forEach(p => {
+            p.style.color = "#035f9c";
+        });
         logo.setAttribute('src','images/byui-logo-blue.webp');
         logo.setAttribute('alt','BYU-Idaho Logo');
+        border.style.borderColor = "black";
     }
 }           
                     
