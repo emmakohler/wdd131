@@ -37,6 +37,11 @@ dialog {
     font-size: 1.5em;
 }
 
+
+
+
+
+
 @media screen and (min-width: 700px) {
     .gallery {
         display: grid;

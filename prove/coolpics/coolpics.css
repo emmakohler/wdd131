@@ -32,8 +32,22 @@ h2{
     text-align: center;
     font-size: 20px;
 }
+nav a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-top:1px solid gray;
+    /*display: none;*/
+
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
 .menu-btn{
-    background-color: dodgerblue;
+    background-color: transparent;
     border: none;
     color: white;
     text-align: center;
@@ -43,11 +57,11 @@ h2{
     margin: 4px 2px;
     cursor: pointer;
 }
-img {
+/* img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-}
+} */
 .styled-image {
     border: 5px solid white;         
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);          
@@ -63,26 +77,67 @@ a{
     color: white;
     text-decoration: none;
 }
+.hide{
+    display:none;
+}
+.gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+figure img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    display: block;
+    margin: 0 auto;
+}
+/* modal */
 
-
-
-
-
-@media screen and (max-width: 700px) {
-    nav a {
-    display: none; 
-    }
-
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+}
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
 }
 
-@media screen and (min-width: 700px) {
-    nav a {
-    display: none; 
-    }
 
-    main{
+
+@media screen and (min-width: 700px) {
+    nav {
+        text-align: right;
+        display: block;
+    }
+    nav a {
+        display: inline;
+        border: none; 
+    }
+    section{
         display: grid;
         grid-template-columns: 1fr 1fr
+    }
+    .hide{
+        display: block;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
           
@@ -91,10 +146,28 @@ a{
     nav a {
     display:inline; 
     }
-     .menu-btn {
+    .menu-btn {
     display: none;
     }
-    main{
+    section{
         grid-template-columns: 1fr 1fr 1fr
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    dialog img {
+        width: 60%;
+        margin: 15vh auto;
+    }
+    .close-viewer {
+        position: absolute;
+        right: 15vh;
+    }
+    .viewer {
+        margin: 50px;
+        padding: 50px;
+    }
+    .viewer img {
+        max-width: 800px;
     }
 }
