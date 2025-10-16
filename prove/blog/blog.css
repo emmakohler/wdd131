@@ -1,0 +1,18 @@
+header, footer{
+    text-align: center;
+    padding: 1rem;
+}
+footer{
+    border-top: 2px solid #EFC69B;
+}
+nav{
+    border-top: 2px solid #EFC69B;
+    border-bottom: 2px solid #EFC69B;
+    padding: 20px;
+    text-align: right;
+}
+nav a{
+    padding: 25px;
+    text-decoration: none;
+    color:red;
+}
