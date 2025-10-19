@@ -12,7 +12,39 @@ nav{
     text-align: right;
 }
 nav a{
-    padding: 25px;
+    padding: 15px;
     text-decoration: none;
     color:red;
+}
+.book-list{
+    margin: auto 20%;
+}
+#words{
+    grid-column: 1/3;
+}
+h2{
+    grid-column: 1/3;
+    grid-row: 2;
+    color: red;
+}
+.book-details{
+    text-align: right;
+    grid-column: 1/4;
+    border-top: 2px solid #EFC69B;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .book{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .book img{
+        grid-row: 3/6;
+        grid-column: 1/2;
+    }
+
 }
