@@ -3,8 +3,8 @@ const steps = ["one","two", "three"];
 
 // .ForEach()
 steps.forEach(function(item){
-    console.log(item)
-})
+    console.log(item);
+});
 
 let myList = document.querySelector('#myList');
 
@@ -59,7 +59,7 @@ function getTotal(total, item) {
     return total + item;
 }          
 
-console.log(totalPoints)
+console.log(totalPoints);
 
 let gpaAverage = totalPoints/gpaPoints.length;
 
@@ -73,7 +73,7 @@ const words = ['watermelon', 'peach', 'apple', 'tomato', 'grape'];
 
 const shortWords = words.filter(function(word){
     return word.length < 6;
-})
+});
 
 console.log(shortWords);
 
@@ -104,5 +104,5 @@ students.forEach(function(item){
     name.innerHTML = html;
     container.appendChild(name);
 
-})
+});
 
