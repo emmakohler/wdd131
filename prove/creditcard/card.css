@@ -29,7 +29,7 @@ form{
 }
 #holder-name{
     grid-column: 1/3;
-    grid-row: ;
+    grid-row: 
 }
 #back-card{
     background-color: lightgray;
