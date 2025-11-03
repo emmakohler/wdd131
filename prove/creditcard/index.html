@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylessheet" href="card.css"> 
+    <link rel="stylesheet" href="card.css"> 
     <script src="card.js" defer></script>
     <title>CreditCard Form</title>
 </head>
@@ -21,14 +21,15 @@
                     <label for="holder-name">CARD HOLDER</label>
                     <input type="text" id="holder-name" name="holder-name" placeholder="John Doe">
                 </div>
-                <div id="expiration">
-                    <label for="expiration date">EXPIRATION</label>
-                    <input type="text" id="month" name="month" placeholder="MM">
-                    <input type="text" id="year" name="year" placeholder="YY">
-                </div>
+                <div id="cardExpiration">
+                    <label for="expirationDate">EXPIRATION</label>
+                    <input type='text' id='month' name="expMonth" placeholder="MM" aria-labelledby="expirationDate">
+                    <input type='text' id='year' name="expYear" placeholder="YY" aria-labelledby="expirationDate">
+                </div>  
             </div>
         </div>
         <div id="back-card">
+            
         </div>
         <button id="submit">Submit</button>
     </form>
