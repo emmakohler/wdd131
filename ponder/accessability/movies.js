@@ -60,5 +60,7 @@ const movies = [
       movieList.innerHTML += html; 
     
     });
+
+    
           
 
