@@ -85,7 +85,7 @@ footer{
     display:flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-
+    padding: 10px;
 }
 
 
@@ -103,10 +103,15 @@ footer{
     .recipe-details{
     padding-left:25px;
     padding-bottom: 20px;
+    padding-right: 25px;
     }
     footer{
     display:flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    }
+    .recipe-details p{
+        display:none;
     }
 }
