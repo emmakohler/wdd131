@@ -22,8 +22,9 @@ header{
     justify-content: center;
     font-size: 85px;
     font-family: "Amatic SC", sans-serif;
-
+    flex-shrink: 1;
 }
+
 header img{
     width:225px;
 }
@@ -55,13 +56,16 @@ input{
     display: flex;
     border: 3px solid black;
     border-radius: 10px;
-    justify-content:space-around;
+    
+    flex-direction: row;
     margin:15px auto;
+    flex: 1 1 450px;
 }
 
 .recipe-cards img{
     padding: 20px;
-    justify-self: start;
+    align-self: start;
+    max-width: 50%;
 }
 
 .recipe-details h2{
@@ -69,6 +73,12 @@ input{
     font-weight: 700;
     color: blue;
     font-size: 40px;
+}
+.recipe-details{
+    display:flex;
+    align-items: start;
+    flex-direction: column;
+    padding-top:20px;
 }
 
 footer{
