@@ -87,3 +87,26 @@ footer{
     flex-direction: row-reverse;
 
 }
+
+
+
+@media screen and (max-width: 750px){
+    .recipe-cards {
+    flex-direction: column;
+    justify-content: center;
+    }
+    .recipe-cards img{
+    padding: 20px;
+    align-self: center;
+    max-width: 90%;
+    }
+    .recipe-details{
+    padding-left:25px;
+    padding-bottom: 20px;
+    }
+    footer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
