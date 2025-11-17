@@ -1,9 +1,79 @@
-.social img{
-    width: 30px;
-    heigth: 30px;
+body{
+    margin: 0 13%;
 }
 
-#search-bar img{
+
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85px;
+    font-family: "Amatic SC", sans-serif;
+
+}
+header img{
+    width:225px;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+}
+
+.search-bar img{
     width: 35px;
-    heigth: 35px;
+    height: 35px;
+    
+}
+
+.search-bar {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin:15px auto;
+    justify-content:space-evenly;
+}
+
+input{
+    width:96%;
+}
+
+.recipe-cards{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content:space-around;
+    margin:15px auto;
+}
+
+.recipe-cards img{
+    padding: 20px;
+    justify-self: start;
+}
+
+.recipe-details h2{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    color: blue;
+    font-size: 40px;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
 }
