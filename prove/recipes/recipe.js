@@ -318,7 +318,9 @@ function search(){
   })
 };
 
-
+function tagRecipe(tags) {
+    return tags.map((tag)=> `<button>${tag}</button>`).join(' ');
+}
 
 
 
@@ -328,7 +330,9 @@ function recipeOutline(recipes){
     return `<div class="recipe-card">
                 <img src="${recipes.image}" alt="picture of ${recipes.name}">
                 <div class="recipe-details">
-                    <button>Desserts</button>
+					<div class="tags">
+                    	${tagRecipe(recipes.tags)}
+					</div>
                     <h2 class="amatic-sc-bold">${recipes.name}</h2>
                     <span
                     class="rating"
