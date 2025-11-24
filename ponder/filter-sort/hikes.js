@@ -118,8 +118,6 @@ function search(){
 
 //this generates a random number to call a different hike everytime you load the page
 let randomNum = Math.floor(Math.random()* hikes.length);
-console.log(randomNum);
-                
 
 //let html = `<div class="hike-card">
   //            <div class="hike-content">

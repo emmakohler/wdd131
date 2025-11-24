@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="recipe.css">
-    <script src="recipe.js"></script>
+    <script defer src="recipe.js"></script>
     <title>Recipes</title>
 </head>
 <body>
@@ -40,27 +40,11 @@
     <main>
         <div class="search-bar">
             <input type="text" placeholder="Find a recipe" id="search" class="search">
-            <a href="#"><img src="images/images/search.svg" alt="magnifying glass icon"></a>
+            <button class="search"><img src="images/images/search.svg" alt="magnifying glass icon"></button>
         </div>
         <hr>
-        <div class="recipe-cards">
-            <img src="images/images/apple-crisp.jpg" alt="picture of apple crisp">
-            <div class="recipe-details">
-                <button>Desserts</button>
-                <h2 class="amatic-sc-bold">Apple Crisps</h2>
-                <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-                >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span> 
-                <p>This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla icecream</p>
-            </div>
+        <div id="recipes">
+            
         </div>
     </main>
     

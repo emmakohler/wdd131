@@ -52,17 +52,16 @@ input{
     width:96%;
 }
 
-.recipe-cards{
+.recipe-card{
     display: flex;
     border: 3px solid black;
     border-radius: 10px;
-    
     flex-direction: row;
     margin:15px auto;
     flex: 1 1 450px;
 }
 
-.recipe-cards img{
+.recipe-card img{
     padding: 20px;
     align-self: start;
     max-width: 50%;
@@ -91,11 +90,11 @@ footer{
 
 
 @media screen and (max-width: 750px){
-    .recipe-cards {
+    .recipe-card {
     flex-direction: column;
     justify-content: center;
     }
-    .recipe-cards img{
+    .recipe-card img{
     padding: 20px;
     align-self: center;
     max-width: 90%;
