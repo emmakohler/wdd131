@@ -325,7 +325,6 @@ function tagRecipe(tags) {
 
 
 
-       
 function recipeOutline(recipes){
     return `<div class="recipe-card">
                 <img src="${recipes.image}" alt="picture of ${recipes.name}">

@@ -23,10 +23,13 @@ header{
     font-size: 85px;
     font-family: "Amatic SC", sans-serif;
     flex-shrink: 1;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 header img{
-    width:225px;
+    width: 15vw;
+    max-width:225px;
 }
 
 .social img{
