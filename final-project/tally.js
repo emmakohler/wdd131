@@ -1,5 +1,5 @@
 
-[
+const species = [
 
   {
     commonName: "Quaking Aspen",
@@ -316,3 +316,47 @@
     habitat: "Found in wooded swamps, rivers, ponds, and wetland forests."
   }
 ]
+
+//HERE IS THE BEGINNING OF MY FUNCTIONS AND STUFF
+
+///////////////////////////////////////////
+//         SEARCH BAR & FUNCTION         //
+///////////////////////////////////////////
+
+let searchButton = document.querySelector('.search');
+//this is saying when you click the button the search function will be ran
+searchButton.addEventListener('click', search);
+
+
+
+
+///////////////////////////////////////////
+//            INNER HTML                  //
+///////////////////////////////////////////
+
+function speciesOutline(species){
+    return `<div class="species-card">
+                <img src="${species.image}" alt="picture of ${species.commonNamename}">
+                <div class="species-details">
+                    <h2 class="amatic-sc-bold">${species.commonName}</h2>
+                    <p>${species.description}</p>
+                </div>
+            </div>`
+};
+
+function showAnimal(species) {
+    let html = recipeOutline(species);
+    recipeBox.innerHTML += html
+};
+
+
+///////////////////////////////////////////
+//                             //
+///////////////////////////////////////////
+
+
+
+
+///////////////////////////////////////////
+//                            //
+///////////////////////////////////////////
