@@ -44,7 +44,7 @@ header{
     padding: 1rem;
 }
 
-/* this   */
+/* this is the logo */
 header img{
     width: 15vw;
     max-width:160px;
@@ -78,7 +78,15 @@ input{
     border: none
 }
 
-/*   */
+/* This is to style the boxes  */
+.species-card{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+    margin:15px auto;
+    flex: 1 1 450px;
+}
 
 /*   */
 
