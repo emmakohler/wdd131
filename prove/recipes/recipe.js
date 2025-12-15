@@ -312,6 +312,7 @@ function search(){
 
   //clear out any previous content
   recipeBox.innerHTML = '';
+  
   //output this onto the screen
   sortedRecipes.forEach(function(recipes){
     showRecipe(recipes);

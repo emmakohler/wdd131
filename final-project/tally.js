@@ -23,7 +23,7 @@ const species = [
       "Its aromatic oils help it survive drought.",
       "It provides essential habitat for sage-grouse."
     ],
-    image: "",
+    image: "images/sagebrush.jpg",
     habitat: "Grows in dry plains, foothills, and sage-steppe regions."
   },
 
@@ -36,7 +36,7 @@ const species = [
       "Deer and elk feed on its leaves.",
       "Indigenous peoples used its roots medicinally."
     ],
-    image: "",
+    image: "images/arrowleaf.jpg",
     habitat: "Found in sunny meadows, foothills, and open mountain slopes."
   },
 
@@ -49,7 +49,7 @@ const species = [
       "Hummingbirds are major pollinators.",
       "Its red color comes from modified leaves called bracts."
     ],
-    image: "",
+    image: "images/indianpaintbrush.jpg",
     habitat: "Common in open forests, moist meadows, and alpine slopes."
   },
 
@@ -75,7 +75,7 @@ const species = [
       "They feed heavily on willow and aquatic plants.",
       "Their long legs help them move through deep snow and marshes."
     ],
-    image: "",
+    image: "images/moose.jpg",
     habitat: "Found along rivers, marshes, and willow-filled forests."
   },
 
@@ -88,7 +88,7 @@ const species = [
       "It primarily hunts rodents and small mammals.",
       "It adapts well to rural and urban areas."
     ],
-    image: "",
+    image: "images/redtailedHawk.jpg",
     habitat: "Seen in open fields, forests, cliffs, and roadsides."
   },
 
@@ -101,7 +101,7 @@ const species = [
       "They live in cooperative social groups.",
       "They build large, dome-shaped stick nests."
     ],
-    image: "",
+    image: "images/magpie.jpg",
     habitat: "Lives in open fields, farms, forests, and towns."
   },
 
@@ -114,7 +114,7 @@ const species = [
       "Their call changes depending on danger level.",
       "They survive cold nights by lowering their body temperature."
     ],
-    image: "",
+    image: "images/blackCappedChickadee.jpg",
     habitat: "Common in forests, parks, and backyard feeders."
   },
 
@@ -127,7 +127,7 @@ const species = [
       "Their caterpillars feed only on milkweed.",
       "They are toxic to predators."
     ],
-    image: "",
+    image: "images/monarchButterfly.jpg",
     habitat: "Found in meadows, gardens, and milkweed-rich fields."
   },
 
@@ -140,7 +140,7 @@ const species = [
       "They live in large colonies.",
       "They pollinate many food crops."
     ],
-    image: "",
+    image: "images/honeybee.jpg",
     habitat: "Seen around flowers, gardens, farms, and meadows."
   },
 
@@ -153,7 +153,7 @@ const species = [
       "They feed on maple and boxelder seeds.",
       "They are harmless to people."
     ],
-    image: "",
+    image: "images/boxelder.jpg",
     habitat: "Common around boxelder and maple trees."
   },
 
@@ -166,7 +166,7 @@ const species = [
       "Some overwinter indoors.",
       "Their color warns predators."
     ],
-    image: "",
+    image: "images/ladybug.jpg",
     habitat: "Found in gardens, meadows, and forests."
   },
 
@@ -179,7 +179,7 @@ const species = [
       "Can damage crops.",
       "Feeds on grasses."
     ],
-    image: "",
+    image: "images/twostripedGrasshopper.jpg",
     habitat: "Found in grasslands and open fields."
   },
 
@@ -192,10 +192,202 @@ const species = [
       "They patrol ponds.",
       "Larvae live underwater."
     ],
-    image: "",
+    image: "images/bluedasherDragonfly.jpg",
     habitat: "Seen near ponds and marshes."
+  },
+
+  {
+    commonName: "American Red Squirrel",
+    scientificName: "Tamiasciurus hudsonicus",
+    descriptions: [
+      "mammal",
+      "small",
+      "squirrel",
+      "brown",
+      "red",
+      "fast",
+     // "tree-dwelling",
+      "forest",
+      "common"
+    ],
+    facts: [
+      "Red squirrels are very territorial and vocal.",
+      "They store food in large caches called middens.",
+      "They are active year-round, even in winter."
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Tamiasciurus_hudsonicus_7_Luc_Viatour.jpg",
+    habitat: "Found in coniferous forests, woodlands, and parks."
+  },
+  {
+    commonName: "Striped Skunk",
+    scientificName: "Mephitis mephitis",
+    descriptions: [
+      "mammal",
+      "medium",
+      "skunk",
+      "black",
+      "white stripes",
+      "nocturnal",
+      "ground-dwelling",
+      "common"
+    ],
+    facts: [
+      "Skunks spray a strong-smelling liquid for defense.",
+      "They have poor eyesight but an excellent sense of smell.",
+      "They eat insects, rodents, and plants."
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Striped_skunk.jpg",
+    habitat: "Lives in grasslands, forests, farmland, and suburban areas."
+  },
+  {
+    commonName: "Canada Goose",
+    scientificName: "Branta canadensis",
+    descriptions: [
+      "bird",
+      "large",
+      "waterfowl",
+      "goose",
+      "black neck",
+      "white chin strap",
+      "migratory",
+      "common"
+    ],
+    facts: [
+      "Canada geese are highly social and form lifelong pair bonds.",
+      "They migrate in V-shaped formations.",
+      "They aggressively defend nesting areas."
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Canada_Goose_Alberta.jpg",
+    habitat: "Found near lakes, rivers, wetlands, and grassy open areas."
+  },
+  {
+    commonName: "Mountain Lion",
+    scientificName: "Puma concolor",
+    descriptions: [
+      "mammal",
+      "large",
+      "predator",
+      "tan",
+      "solitary",
+      "stealthy",
+      "mountain",
+      "forest"
+    ],
+    facts: [
+      "Mountain lions can leap over 40 feet in a single bound.",
+      "They are solitary and highly elusive.",
+      "They primarily hunt deer."
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/70/Puma_concolor_cougar.jpg",
+    habitat: "Lives in mountainous regions, forests, and remote wilderness."
+  },
+  {
+    commonName: "American Black Bear",
+    scientificName: "Ursus americanus",
+    descriptions: [
+      "mammal",
+      "large",
+      "bear",
+      "black",
+      "brown",
+      "omnivore",
+      "forest",
+      "mountain"
+    ],
+    facts: [
+      "Black bears are excellent climbers.",
+      "They eat berries, insects, plants, and meat.",
+      "They enter a state of torpor during winter."
+    ],
+    image: "images/americanBlackBear.jpg",
+    habitat: "Found in forests, mountains, and wooded river corridors."
+  },
+  {
+    commonName: "Grizzly Bear",
+    scientificName: "Ursus arctos horribilis",
+    descriptions: [
+      "mammal",
+      "large",
+      "bear",
+      "brown",
+      "powerful",
+      "omnivore",
+      "mountain",
+      "rare"
+    ],
+    facts: [
+      "Grizzlies have a distinct shoulder hump made of muscle.",
+      "They can run up to 35 miles per hour.",
+      "They dig extensively for roots and rodents."
+    ],
+    image: "images/grizzlybear.jpg",
+    habitat: "Lives in remote mountainous and wilderness areas."
+  },
+  {
+    commonName: "Elk",
+    scientificName: "Cervus canadensis",
+    descriptions: [
+      "mammal",
+      "large",
+      "herbivore",
+      "brown",
+      "herd animal",
+      "antlers",
+      "mountain",
+      "meadow"
+    ],
+    facts: [
+      "Male elk bugle loudly during the fall rut.",
+      "Elk shed and regrow antlers every year.",
+      "They migrate seasonally between elevations."
+    ],
+    image: "images/elk.jpg",
+    habitat: "Found in mountain meadows, forests, and valleys."
+  },
+  {
+    commonName: "Yellow-pine Chipmunk",
+    scientificName: "Neotamias amoenus",
+    descriptions: [
+      "mammal",
+      "small",
+      "chipmunk",
+      "striped",
+      "fast",
+      "ground-dwelling",
+      "forest",
+      "common"
+    ],
+    facts: [
+      "Chipmunks store food in underground burrows.",
+      "They communicate with high-pitched chirps.",
+      "They are active during the daytime."
+    ],
+    image: "images/squirrel.jpg",
+    habitat: "Lives in forests, rocky slopes, and wooded areas."
+  },
+  {
+    commonName: "Barn Owl",
+    scientificName: "Tyto alba",
+    descriptions: [
+      "bird",
+      "medium",
+      "owl",
+      "nocturnal",
+      "white",
+      "silent flight",
+      "predator",
+      "farmland"
+    ],
+    facts: [
+      "Barn owls have exceptional hearing for hunting in darkness.",
+      "They swallow prey whole and regurgitate pellets.",
+      "Their heart-shaped face helps focus sound."
+    ],
+    image: "images/barnowl.jpg",
+    habitat: "Found near open fields, farms, and grasslands with nesting structures."
   }
 
+  
 ];
 
 //HERE IS THE BEGINNING OF MY FUNCTIONS AND STUFF
@@ -208,6 +400,33 @@ let searchButton = document.querySelector('.search');
 //this is saying when you click the button the search function will be ran
 searchButton.addEventListener('click', search);
 
+function search(){
+  //calls the id of the search bar. .value calls just the value that is inputed
+  let speciesQuery = document.querySelector('#search').value;
+
+
+  let filterSpecies = species.filter(function(animal){
+    return(
+      //the || is or to allow any of the results to match and not make it so all of them have to match
+      animal.commonName.toLowerCase().includes(speciesQuery.toLowerCase()) ||
+      //species.descriptions.toLowerCase().includes(speciesQuery.toLowerCase()) ||
+      //animal.habitat.toLowerCase().includes(speciesQuery.toLowerCase()) ||
+      animal.descriptions.find(descriptions => descriptions.toLowerCase().includes (speciesQuery.toLowerCase()))
+      );
+  });
+
+  //let sortedSpecies = filterSpecies.sort(compareRecipes);
+  //function compareRecipes(a,b){
+  //}
+
+  //clear out any previous content
+  creatureBox.innerHTML = '';
+  
+  //output this onto the screen
+  filterSpecies.forEach(function(animal){
+    showAnimal(animal);
+  });
+};
 
 
 
@@ -217,10 +436,11 @@ searchButton.addEventListener('click', search);
 
 function speciesOutline(species){
     return `<div class="species-card">
-                <img src="${species.image}" alt="picture of "${species.commonName}">
+                <img src="${species.image}" alt="picture of ${species.commonName}">
                 <div class="species-details">
                     <h2 class="amatic-sc-bold">${species.commonName}</h2>
                     <p>${species.habitat}</p>
+
                 </div>
             </div>`
 };

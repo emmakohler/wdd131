@@ -28,18 +28,22 @@
   --nav-hover-background-color: var(--primary-color);
 }
 
+body{}
 
+main{
+    margin: 0 13%;
+}
 
 
 header{
     background-color: #24563C;
     color: #9FD00F;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
     font-family: "Montserrat";
-   /* flex-shrink: 1;*/
+    flex-shrink: 1;
     gap: 1rem;
     padding: 1rem;
 }
@@ -52,40 +56,101 @@ header img{
     border-radius: 50%;
 }
 
-
 /* these are to center the search bar and set the size for it and the size for the search logo */
 .search{
     border: none;
     background-color: #ebf3eb;
-
 }
 .search-bar img{
     width: 35px;
     height: 35px;
+    
 }
 .search-bar {
     display: flex;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     margin:15px auto;
     justify-content:space-evenly;
-    border-radius: 5px;
     background-color: #ebf3eb;
-    
+    align-items: center;
 }
 input{
-    width:96%;
-    border: none
+    flex:1 ;
+    border: none;
 }
 
 /* This is to style the boxes  */
+.info-box{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebf3eb;
+    margin:15px auto;
+    flex: 1 1 450px;
+}
+.info-box h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #24563C;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.info-box p{
+    font-family: "Merriweather";
+    padding:5px 60px;
+}
+.main ul{
+  list-style: none;
+  padding:0;
+  font-family: "Merriweather";
+}
+
+button{
+  background-color: #845535;
+  color: #9FD00F;
+  width: 225px;
+  height: 75px;
+  font-size: 25px;
+  border-width: 0px;
+  border-radius: 5px;
+  display:block;
+  margin: 0 auto;
+
+}
+
 .species-card{
     display: flex;
     border: 3px solid black;
     border-radius: 5px;
     flex-direction: row;
+    background-color: #ebf3eb;
     margin:15px auto;
     flex: 1 1 450px;
+}
+
+.species-card img{
+    padding: 20px;
+    align-self: start;
+    max-width: 50%;
+}
+
+.species-details h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #24563C;
+    font-size: 40px;
+}
+.species-details p{
+    font-family: "Merriweather";
+}
+.species-details{
+    display:flex;
+    align-items: start;
+    flex-direction: column;
+    padding: auto
 }
 
 /*   */
