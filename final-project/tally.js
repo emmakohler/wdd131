@@ -11,6 +11,7 @@ const species = [
       "Their leaves flutter due to flattened leaf stems."
     ],
     image: "images/quaking-aspen.jpg",
+    tally: "0",
     habitat: "Found in cool mountain forests, valley edges, and mixed woodlands."
   },
 
@@ -24,6 +25,7 @@ const species = [
       "It provides essential habitat for sage-grouse."
     ],
     image: "images/sagebrush.jpg",
+    tally: "0",
     habitat: "Grows in dry plains, foothills, and sage-steppe regions."
   },
 
@@ -37,6 +39,7 @@ const species = [
       "Indigenous peoples used its roots medicinally."
     ],
     image: "images/arrowleaf.jpg",
+    tally: "0",
     habitat: "Found in sunny meadows, foothills, and open mountain slopes."
   },
 
@@ -50,6 +53,7 @@ const species = [
       "Its red color comes from modified leaves called bracts."
     ],
     image: "images/indianpaintbrush.jpg",
+    tally: "0",
     habitat: "Common in open forests, moist meadows, and alpine slopes."
   },
 
@@ -63,6 +67,7 @@ const species = [
       "They migrate between high and low elevations seasonally."
     ],
     image: "images/mule_deer.jpg",
+    tally: "0",
     habitat: "Lives in forests, sagebrush flats, foothills, and suburban edges."
   },
 
@@ -76,6 +81,7 @@ const species = [
       "Their long legs help them move through deep snow and marshes."
     ],
     image: "images/moose.jpg",
+    tally: "0",
     habitat: "Found along rivers, marshes, and willow-filled forests."
   },
 
@@ -89,6 +95,7 @@ const species = [
       "It adapts well to rural and urban areas."
     ],
     image: "images/redtailedHawk.jpg",
+    tally: "0",
     habitat: "Seen in open fields, forests, cliffs, and roadsides."
   },
 
@@ -102,6 +109,7 @@ const species = [
       "They build large, dome-shaped stick nests."
     ],
     image: "images/magpie.jpg",
+    tally: "0",
     habitat: "Lives in open fields, farms, forests, and towns."
   },
 
@@ -115,6 +123,7 @@ const species = [
       "They survive cold nights by lowering their body temperature."
     ],
     image: "images/blackCappedChickadee.jpg",
+    tally: "0",
     habitat: "Common in forests, parks, and backyard feeders."
   },
 
@@ -128,6 +137,7 @@ const species = [
       "They are toxic to predators."
     ],
     image: "images/monarchButterfly.jpg",
+    tally: "0",
     habitat: "Found in meadows, gardens, and milkweed-rich fields."
   },
 
@@ -141,6 +151,7 @@ const species = [
       "They pollinate many food crops."
     ],
     image: "images/honeybee.jpg",
+    tally: "0",
     habitat: "Seen around flowers, gardens, farms, and meadows."
   },
 
@@ -154,6 +165,7 @@ const species = [
       "They are harmless to people."
     ],
     image: "images/boxelder.jpg",
+    tally: "0",
     habitat: "Common around boxelder and maple trees."
   },
 
@@ -167,6 +179,7 @@ const species = [
       "Their color warns predators."
     ],
     image: "images/ladybug.jpg",
+    tally: "0",
     habitat: "Found in gardens, meadows, and forests."
   },
 
@@ -180,6 +193,7 @@ const species = [
       "Feeds on grasses."
     ],
     image: "images/twostripedGrasshopper.jpg",
+    tally: "0",
     habitat: "Found in grasslands and open fields."
   },
 
@@ -193,6 +207,7 @@ const species = [
       "Larvae live underwater."
     ],
     image: "images/bluedasherDragonfly.jpg",
+    tally: "0",
     habitat: "Seen near ponds and marshes."
   },
 
@@ -216,6 +231,7 @@ const species = [
       "They are active year-round, even in winter."
     ],
     image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Tamiasciurus_hudsonicus_7_Luc_Viatour.jpg",
+    tally: "0",
     habitat: "Found in coniferous forests, woodlands, and parks."
   },
   {
@@ -237,6 +253,7 @@ const species = [
       "They eat insects, rodents, and plants."
     ],
     image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Striped_skunk.jpg",
+    tally: "0",
     habitat: "Lives in grasslands, forests, farmland, and suburban areas."
   },
   {
@@ -258,6 +275,7 @@ const species = [
       "They aggressively defend nesting areas."
     ],
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Canada_Goose_Alberta.jpg",
+    tally: "0",
     habitat: "Found near lakes, rivers, wetlands, and grassy open areas."
   },
   {
@@ -279,6 +297,7 @@ const species = [
       "They primarily hunt deer."
     ],
     image: "https://upload.wikimedia.org/wikipedia/commons/7/70/Puma_concolor_cougar.jpg",
+    tally: "0",
     habitat: "Lives in mountainous regions, forests, and remote wilderness."
   },
   {
@@ -300,6 +319,7 @@ const species = [
       "They enter a state of torpor during winter."
     ],
     image: "images/americanBlackBear.jpg",
+    tally: "0",
     habitat: "Found in forests, mountains, and wooded river corridors."
   },
   {
@@ -321,6 +341,7 @@ const species = [
       "They dig extensively for roots and rodents."
     ],
     image: "images/grizzlybear.jpg",
+    tally: "0",
     habitat: "Lives in remote mountainous and wilderness areas."
   },
   {
@@ -342,6 +363,7 @@ const species = [
       "They migrate seasonally between elevations."
     ],
     image: "images/elk.jpg",
+    tally: "0",
     habitat: "Found in mountain meadows, forests, and valleys."
   },
   {
@@ -363,6 +385,7 @@ const species = [
       "They are active during the daytime."
     ],
     image: "images/squirrel.jpg",
+    tally: "0",
     habitat: "Lives in forests, rocky slopes, and wooded areas."
   },
   {
@@ -384,6 +407,7 @@ const species = [
       "Their heart-shaped face helps focus sound."
     ],
     image: "images/barnowl.jpg",
+    tally: "0",
     habitat: "Found near open fields, farms, and grasslands with nesting structures."
   }
 
@@ -393,12 +417,18 @@ const species = [
 //HERE IS THE BEGINNING OF MY FUNCTIONS AND STUFF
 
 ///////////////////////////////////////////
+//             TALLY COUNT               //
+///////////////////////////////////////////
+
+
+
+
+///////////////////////////////////////////
 //         SEARCH BAR & FUNCTION         //
 ///////////////////////////////////////////
 
-let searchButton = document.querySelector('.search');
-//this is saying when you click the button the search function will be ran
-searchButton.addEventListener('click', search);
+
+
 
 function search(){
   //calls the id of the search bar. .value calls just the value that is inputed
@@ -428,6 +458,17 @@ function search(){
   });
 };
 
+let searchButton = document.querySelector('.search');
+//this is saying when you click the button the search function will be ran
+searchButton.addEventListener('click', search);
+
+/* for the enter key to work on search - not just clicking the search button */
+
+
+
+// SEARCH BAR BUTTON AND "ENTER"
+
+
 
 
 ///////////////////////////////////////////
@@ -435,12 +476,24 @@ function search(){
 ///////////////////////////////////////////
 
 function speciesOutline(species){
+  
+    let randomfactnum = Math.floor(Math.random()* species.facts.length);
+    let randomFact=species.facts[randomfactnum];
+
     return `<div class="species-card">
                 <img src="${species.image}" alt="picture of ${species.commonName}">
                 <div class="species-details">
                     <h2 class="amatic-sc-bold">${species.commonName}</h2>
+                    <h3>Scientific name: ${species.scientificName}</h3>
                     <p>${species.habitat}</p>
-
+                    <p>Fun Fact about the ${species.commonName}:
+                    <br>${randomFact}
+                    </p>
+                    
+                    <div class="tally">
+                      <p>Current Tally: ${species.tally}</p>
+                      <button type="button">Spotted!</button>
+                    </div>
                 </div>
             </div>`
 };
@@ -458,13 +511,4 @@ function init(){
 };
 
 init();
-///////////////////////////////////////////
-//                             //
-///////////////////////////////////////////
 
-
-
-
-///////////////////////////////////////////
-//                            //
-///////////////////////////////////////////
